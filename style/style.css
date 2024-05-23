@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding-bottom: 2em;
+}
+section{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    font-variant: small-caps;
+}
+header p{
+    padding: 0px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: normal;
+    font-size: 16px;
+}
+
+.normal{
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+.imagem{
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    font-family: Sriracha, Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    line-height: 2em;
+    background-color: rgb(51,51,51);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+.imagem > p{
+    display: inline-block;
+    background-color: #00000083;
+    padding: 5px;
+}
+#img1{
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg);
+}
+#img2{
+    background-image: url(https://professorguanabara.github.io/projeto-cordel/imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
